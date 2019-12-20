@@ -14,6 +14,7 @@ let dinosaur1 = {
   weight: 7000,
   length: 12,
   period: "Late Cretaceous",
+};
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
  let dinosaur2 = {
@@ -22,7 +23,7 @@ let dinosaur1 = {
   weight: 2000,
   length: 9,
   period: "Late Jurassic",
-}
+};
 
 // velociraptor, carnivorous, 15kg, 1.8m, Late 
 let dinosaur3 = {
@@ -32,7 +33,7 @@ let dinosaur3 = {
   length: 1.8,
   period: "Late Cretaceous",
 
-}
+};
 
 
 // Using your dinosaur objects, log answers to these questions:
@@ -51,10 +52,11 @@ console.log(dinosaur1.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-roar: function() {
+ dinosaur1.roar =function () {
   return "RAWERSRARARWERSARARARRRR!"
 }
-console.log();
+console.log("RAWERSRARARWERSARARARRRR!");
+
 
 
 // ==== Arrays ====
@@ -75,11 +77,11 @@ const graduates = [
 ];
 
 /* Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.*/
-const universities = graduates.filter() => {
-  return universities;
-}
 
-Once you have the new array created, sort the universities alphabetically and log the result. */
+  
+
+
+/*Once you have the new array created, sort the universities alphabetically and log the result. */
 const universities = [];
 universities
 
